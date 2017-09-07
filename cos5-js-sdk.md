@@ -7,11 +7,11 @@ COS服务的 **前端 js SDK v5版本**的GitHub下载地址： [https://github.
 
  **前端 js SDK v5版本**接口的使用 demo 在这里： [demo](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/demo/demo.js)
 
-### Demo 使用
+### Demo 使用和签名计算
 
-1. demo/index.html 在浏览器直接用 file:// 形式打开使用会出现跨域错误。需要把代码放在到静态服务器下，用 http:// 形式访问才能正常使用。
-2. demo 可以使用前端计算签名的形式来调试，在正式部署时，建议把签名计算的逻辑放在服务端，以避免暴露密钥。
-3. 后端签名计算可以参考 [server](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server) 目录下提供的 nodejs 和 php 样例，也可以使用对应语言的 SDK 来计算签名。
+1. demo/index.html 直接用 file:// 形式打开会出错。需要把代码放在到静态服务器下，用 http:// 形式使用。
+2. demo 里可以使用前端计算签名的形式来调试，在正式部署时，建议把签名计算的逻辑放在服务端，以避免暴露密钥。
+3. 后端签名计算可以参考 [server](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server) 目录下的 nodejs 和 php 签名样例，也可以使用对应语言的 SDK 来计算签名。
 
 ### SDK 引入
 
