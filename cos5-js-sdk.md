@@ -10,7 +10,7 @@ COS服务的 **前端 js SDK v5版本**的GitHub下载地址： [https://github.
 ### Demo 使用和签名计算
 
 1. demo/index.html 直接用 file:// 形式打开会出错。需要把代码放在到静态服务器下，用 http:// 形式使用。
-2. demo 里可以使用前端计算签名的形式来调试，但密钥容易暴露，导致腾讯云帐号面临安全风险，**所以正式部署时禁止在前端计算签名**。
+2. demo 可以在前端计算签名，但密钥容易暴露，导致腾讯云帐号面临安全风险，**所以正式部署时禁止在前端计算签名**。
 3. 后端签名计算可以参考 [server](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server) 目录下的 nodejs 和 php 签名样例，也可以使用对应语言的 SDK 来计算签名。
 
 ### SDK 引入
